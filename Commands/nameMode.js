@@ -20,7 +20,7 @@ if(!data) new registerData({guildID: message.guild.id, nameMode: false}).save();
             message.channel.send(embed.setDescription(`${message.member}, İsim modu başarıyla kapatıldı!`)).sil(7);
             break;
         default:
-            return message.channel.send(embed.setImage("https://cdn.discordapp.com/attachments/799237507820552193/843813219470409729/unknown.png").setDescription(`İsim modu açık iken kayıt mesajında geçmiş isimler görüntülenir kapalı iken görüntülenmez \n \`\`\`${ayar.bot.botPrefix}${this.config.name} aç/kapat\`\`\` `)).sil(20);
+            return message.channel.send(embed.setImage("").setDescription(`İsim modu açık iken kayıt mesajında geçmiş isimler görüntülenir kapalı iken görüntülenmez \n \`\`\`${ayar.bot.botPrefix}${this.config.name} aç/kapat\`\`\` `)).sil(20);
             break;
     }
 };
