@@ -4,7 +4,7 @@ module.exports = {
         botToken: "",
         botPrefix: "",
         botStatus: "Lexus | Lewis Was Here."
-        mongoURL: "MONGO LİNKİ",
+        mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority ",
     },
     roles: {
         registerStaff: [],
