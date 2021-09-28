@@ -1,7 +1,7 @@
 module.exports = {
     bot: {
         botOwner: [""],
-        botToken: "",
+        botToken: "ODExMzAxNDYyMzYwNzE5NDEx.YCwNXQ.9vvg_vz7iJTx5YBVT_EDDq632fk",
         botPrefix: ".",
         botStatus: "Lexsus | Lewis Was Here."
         mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority ",
