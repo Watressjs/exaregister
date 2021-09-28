@@ -3,7 +3,7 @@ module.exports = {
         botOwner: [""],
         botToken: "",
         botPrefix: "",
-        botStatus: "Cross was here.",
+        botStatus: "Lexus | Lewis Was Here."
         mongoURL: "MONGO LİNKİ",
     },
     roles: {
