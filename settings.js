@@ -4,7 +4,7 @@ module.exports = {
         botToken: "ODExMzAxNDYyMzYwNzE5NDEx.YCwNXQ.9vvg_vz7iJTx5YBVT_EDDq632fk",
         botPrefix: ".",
         botStatus: "Lexsus | Lewis Was Here."
-        mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority ",
+        mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority",
     },
     roles: {
         registerStaff: ["891608453523574814"],
@@ -14,7 +14,7 @@ module.exports = {
         tagRole: "",
         vipRole: "891608734328061952",
         boosterRole: "",
-        suspecious: "891608653587693608" // şüpheli hesap rolü
+        suspecious: "891608653587693608", // şüpheli hesap rolü
     },
     channels: {
         registerChannel: "891609299527303208",
