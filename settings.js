@@ -7,7 +7,7 @@ module.exports = {
         mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority ",
     },
     roles: {
-        registerStaff: [],
+        registerStaff: ["891608453523574814"],
         manRoles: [], // erkek rolleri
         womanRoles: [], // kız rolleri
         unregisterRoles: [],
