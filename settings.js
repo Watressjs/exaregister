@@ -8,7 +8,7 @@ module.exports = {
     },
     roles: {
         registerStaff: ["891608453523574814"],
-        manRoles: [], // erkek rolleri
+        manRoles: ["891608753491816468"], // erkek rolleri
         womanRoles: [], // kız rolleri
         unregisterRoles: [],
         tagRole: "",
