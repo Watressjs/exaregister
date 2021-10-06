@@ -17,7 +17,7 @@ module.exports = {
         suspecious: "891025110968979462", // şüpheli hesap rolü
     },
     channels: {
-        registerChannel: "891609299527303208",
+        registerChannel: "891025111942041630",
         rulesChannel: "891609282817167432",
         botVoice: "",
 
