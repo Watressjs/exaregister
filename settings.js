@@ -32,7 +32,7 @@ module.exports = {
     },
     emojis: { 
         yes: "892494412087689247",
-        no: "892494320823848982",
+        no: "843119444275363890",
         // EMOJİLERİN ID GİRCEKSİNİZ SADECE ID
     }
 
