@@ -31,7 +31,7 @@ module.exports = {
         suspeciousName: "• Şüpheli | Hesap",
     },
     emojis: { 
-        yes: "892494412087689247",
+        yes: "860874127795552306",
         no: "843119444275363890",
         // EMOJİLERİN ID GİRCEKSİNİZ SADECE ID
     }
