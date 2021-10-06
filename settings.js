@@ -24,9 +24,9 @@ module.exports = {
     },
     guild: {
         guildID: "891025110763470848",
-        tag: "✰", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
+        tag: "†", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
         tagges: [], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
-        defaultTag: "•",
+        defaultTag: "†",
         defaultName: "• İsim | Yaş",
         suspeciousName: "• Şüpheli | Hesap",
     },
