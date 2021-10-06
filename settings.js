@@ -23,7 +23,7 @@ module.exports = {
 
     },
     guild: {
-        guildID: "891607826789699594",
+        guildID: "891025110763470848",
         tag: "✰", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
         tagges: [], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
         defaultTag: "•",
