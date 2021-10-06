@@ -12,7 +12,7 @@ module.exports = {
         womanRoles: ["891025110947999800","891025110947999799","891025110947999798"], // kız rolleri
         unregisterRoles: ["891025110947999801"],
         tagRole: "891025110968979457",
-        vipRole: "891608734328061952",
+        vipRole: "891025110947999803",
         boosterRole: "",
         suspecious: "891608653587693608", // şüpheli hesap rolü
     },
