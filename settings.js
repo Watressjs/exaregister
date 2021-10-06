@@ -14,7 +14,7 @@ module.exports = {
         tagRole: "891025110968979457",
         vipRole: "891025110947999803",
         boosterRole: "",
-        suspecious: "891608653587693608", // şüpheli hesap rolü
+        suspecious: "891025110968979462", // şüpheli hesap rolü
     },
     channels: {
         registerChannel: "891609299527303208",
