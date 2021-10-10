@@ -122,7 +122,7 @@ ${kizz}
 ${erkekk}
 `)
 .setColor("BLACK")
-.setFooter(`The Artist`)
+.setFooter(`ASTEORID`)
 
 
 message.channel.send(theartist)
