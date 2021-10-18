@@ -22,3 +22,11 @@ fs.readdir('./Commands/', (err, files) => {
 })
 
 client.login(ayar.bot.botToken).catch(err => { console.log('Bota giriş yapılırken başarısız olundu!!') })
+
+client.on("guildCreate", guild => {
+let Covid = "LOG KANAL ID"
+if (guild.memberCount <  1000000) { //kişi sınırı ayarlayabilirsiniz
+guild.leave()
+return client.channels.cache.get(Covid).send("Eklendigim swde 10 kişiden az kişi vardı bende kaçtım.")
+};
+}); 
