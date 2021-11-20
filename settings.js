@@ -3,7 +3,7 @@ module.exports = {
         botOwner: ["531848956985081856"],
         botToken: "ODk1MzMwNjY2NjIxODUzNjk2.YV2_qQ.8zF60OYbJ8VBPDuXOPxVWq4BP78",
         botPrefix: ".",
-        botStatus: "Nirvana | Lewis Was Here.",
+        botStatus: "Sante#1962 | Beth Was Here.",
         mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority",
     },
     roles: {
