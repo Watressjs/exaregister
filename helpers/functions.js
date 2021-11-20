@@ -4,7 +4,7 @@ const client = global.client;
 const moment = require('moment');
 require('moment-duration-format');
 const message = require('../Events/message');
-let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Lewis was here!')
+let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Beth was here!')
 const registerData = require('../models/register.js');
 
 Promise.prototype.sil = function(time) {
