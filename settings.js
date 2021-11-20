@@ -7,33 +7,59 @@ module.exports = {
         mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority",
     },
     roles: {
-        registerStaff: ["891025110985736235"],
-        manRoles: ["891025110947999797","891025110947999796","891025110947999795"], // erkek rolleri
-        womanRoles: ["891025110947999800","891025110947999799","891025110947999798"], // kız rolleri
-        unregisterRoles: ["891025110947999801"],
-        tagRole: "891025110968979457",
-        vipRole: "891025110947999803",
+
+        registerStaff: ["&911606452081278976"],
+
+        manRoles: ["911603276309467136","911603274669506590","911603274669506590"], // erkek rolleri
+
+        womanRoles: ["911603272673005618","911603289706078239","911603289706078239"], // kız rolleri
+
+        unregisterRoles: ["910911500447793163"],
+
+        tagRole: "911615725427359764",
+
+        vipRole: "911617418743394317",
+
         boosterRole: "",
-        suspecious: "891025110968979462", // şüpheli hesap rolü
+
+        suspecious: "911616340673036338", // şüpheli hesap rolü
+
     },
+
     channels: {
-        registerChannel: "891025111942041630",
-        rulesChannel: "891025111942041638",
-        botVoice: "",
+
+        registerChannel: "911593242582220830",
+
+        rulesChannel: "911594245532573716",
+
+        botVoice: "911611543035191318",
 
     },
+
     guild: {
-        guildID: "891025110763470848",
-        tag: "†", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
-        tagges: [], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
-        defaultTag: "†",
-        defaultName: "• İsim | Yaş",
-        suspeciousName: "• Şüpheli | Hesap",
-    },
-    emojis: { 
-        yes: "860874127795552306",
-        no: "843119444275363890",
-        // EMOJİLERİN ID GİRCEKSİNİZ SADECE ID
-    }
 
-};
+        guildID: "901819030187409478",
+
+        tag: "", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
+
+        tagges: ["Santé","$ante ,"], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
+
+        defaultTag: "",
+
+        defaultName: "İsim | Yaş",
+
+        suspeciousName: "Şüpheli | Hesap",
+
+    },
+
+    emojis: { 
+
+        yes: "911613883129663528",
+
+        no: "911613891480518747",
+
+        // EMOJİLERİN ID GİRCEKSİNİZ SADECE ID
+
+    }
+    
+  }:  
