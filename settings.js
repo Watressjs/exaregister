@@ -42,7 +42,7 @@ module.exports = {
 
         tag: "", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
 
-        tagges: ["Santé","$ante ,"], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
+        tagges: ["Santé","$ante"], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
 
         defaultTag: "",
 
