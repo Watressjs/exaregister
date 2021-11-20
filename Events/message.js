@@ -5,7 +5,7 @@ module.exports = message => {
     let client = message.client;
     if (message.author.bot) return;
     if (!message.content.startsWith(ayar.bot.botPrefix)) return;
-    let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Lewis was here!')
+    let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Beth was here!')
     let command = message.content.split(' ')[0].slice(ayar.bot.botPrefix.length);
     let params = message.content.split(' ').slice(1);
     let cmd;
