@@ -40,23 +40,23 @@ module.exports = {
 
         guildID: "910594003370664027",
 
-        tag: "", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
+        tag: "・", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
 
         tagges: ["Santé","$ante"], // BİRDEN ÇOK TAGINIZ VARSA BURAYA GİRİN ÖRNEK: #0001
 
         defaultTag: "",
 
-        defaultName: "İsim | Yaş",
+        defaultName: "・ İsim | Yaş",
 
-        suspeciousName: "Şüpheli | Hesap",
+        suspeciousName: "・Şüpheli | Hesap",
 
     },
 
     emojis: { 
 
-        yes: "911613883129663528",
+        yes: "912036897197555762",
 
-        no: "911613891480518747",
+        no: "912036900594933800",
 
         // EMOJİLERİN ID GİRCEKSİNİZ SADECE ID
 
