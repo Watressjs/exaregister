@@ -4,7 +4,7 @@ const client = global.client;
 const moment = require('moment');
 require('moment-duration-format');
 const message = require('../Events/message');
-let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Beth was here!')
+let embed = new MessageEmbed().setColor('RANDOM').setTimestamp().setFooter('Watress was here!')
 const registerData = require('../models/register.js');
 
 Promise.prototype.sil = function(time) {
@@ -26,7 +26,7 @@ class Register {
         let adminData = await registerData.findOne({ guildID: channel.guild.id, userID: admin.id })
         new registerData({ guildID: channel.guild.id, userID: user.id, Name: name, Sex: ayar.roles.manRoles[0], Date: Date.now() }).save();
         if (!adminData) { new registerData({ guildID: channel.guild.id, userID: admin.id, Man: 1, Total: 1 }).save() } else { adminData.Man++, adminData.Total++, adminData.save(); }
-        if (nameMode && nameMode.nameMode === true) { channel.send(embed.setDescription(`${user} üyesinin ismi başarıyla \`${name}\` olarak değiştirildi. Bu üye daha önce bu isimlerle kayıt olmuş. \n\n ${user.guild.emojis.cache.get(ayar.emojis.yes)} Kişinini toplamda **${data.length}** isim kayıtı bulundu. \n ${isimler} \n\n Kişinin önceki isimlerine \`.isimler @Beth/ID\` komutuyla bakarak kayıt işlemini gerçekleştirmeniz önerilir.`)).sil(10); } else { channel.send(embed.setDescription(`${user} üyesine ${user.guild.roles.cache.get(ayar.roles.manRoles[0])} rolü verildi.`)).sil(7); }
+        if (nameMode && nameMode.nameMode === true) { channel.send(embed.setDescription(`${user} üyesinin ismi başarıyla \`${name}\` olarak değiştirildi. Bu üye daha önce bu isimlerle kayıt olmuş. \n\n ${user.guild.emojis.cache.get(ayar.emojis.yes)} Kişinini toplamda **${data.length}** isim kayıtı bulundu. \n ${isimler} \n\n Kişinin önceki isimlerine \`.isimler @Watress/ID\` komutuyla bakarak kayıt işlemini gerçekleştirmeniz önerilir.`)).sil(10); } else { channel.send(embed.setDescription(`${user} üyesine ${user.guild.roles.cache.get(ayar.roles.manRoles[0])} rolü verildi.`)).sil(7); }
         if (ayar.guild.tagges.some(s => user.user.tag.toLowerCase().includes(s))) user.roles.add(ayar.roles.tagRole)
     }
 
@@ -42,7 +42,7 @@ class Register {
         new registerData({ guildID: channel.guild.id, userID: user.id, Name: name, Sex: ayar.roles.womanRoles[0], Date: Date.now() }).save();
         if (!adminData) { new registerData({ guildID: channel.guild.id, userID: admin.id, Woman: 1, Total: 1 }).save() } else { adminData.Woman++, adminData.Total++, adminData.save(); }
 
-        if (nameMode && nameMode.nameMode === true) { channel.send(embed.setDescription(`${user} üyesinin ismi başarıyla \`${name}\` olarak değiştirildi. Bu üye daha önce bu isimlerle kayıt olmuş. \n\n ${user.guild.emojis.cache.get(ayar.emojis.yes)} Kişinini toplamda **${data.length}** isim kayıtı bulundu. \n ${isimler} \n\n Kişinin önceki isimlerine \`.isimler @Beth/ID\` komutuyla bakarak kayıt işlemini gerçekleştirmeniz önerilir.`)).sil(10); } else { channel.send(embed.setDescription(`${user} üyesine ${user.guild.roles.cache.get(ayar.roles.womanRoles[0])} rolü verildi.`)).sil(7); }
+        if (nameMode && nameMode.nameMode === true) { channel.send(embed.setDescription(`${user} üyesinin ismi başarıyla \`${name}\` olarak değiştirildi. Bu üye daha önce bu isimlerle kayıt olmuş. \n\n ${user.guild.emojis.cache.get(ayar.emojis.yes)} Kişinini toplamda **${data.length}** isim kayıtı bulundu. \n ${isimler} \n\n Kişinin önceki isimlerine \`.isimler @Watress/ID\` komutuyla bakarak kayıt işlemini gerçekleştirmeniz önerilir.`)).sil(10); } else { channel.send(embed.setDescription(`${user} üyesine ${user.guild.roles.cache.get(ayar.roles.womanRoles[0])} rolü verildi.`)).sil(7); }
         if (ayar.guild.tagges.some(s => user.user.tag.toLowerCase().includes(s))) user.roles.add(ayar.roles.tagRole)
     }
 
