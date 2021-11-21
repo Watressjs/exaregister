@@ -10,27 +10,27 @@ module.exports = {
 
         registerStaff: ["910594003790069770"],
 
-        manRoles: ["911603276309467136","911603274669506590","911603274669506590"], // erkek rolleri
+        manRoles: ["910594003748159500","910594003748159499","910594003748159498"], // erkek rolleri
 
-        womanRoles: ["911603272673005618","911603289706078239","911603289706078239"], // kız rolleri
+        womanRoles: ["910594003748159506","910594003748159505","910594003748159504"], // kız rolleri
 
-        unregisterRoles: ["910911500447793163"],
+        unregisterRoles: ["910594003735556122"],
 
-        tagRole: "911615725427359764",
+        tagRole: "910594003773296644",
 
-        vipRole: "911617418743394317",
+        vipRole: "910594003760734268",
 
         boosterRole: "",
 
-        suspecious: "911616340673036338", // şüpheli hesap rolü
+        suspecious: "910594003718787072", // şüpheli hesap rolü
 
     },
 
     channels: {
 
-        registerChannel: "911593242582220830",
+        registerChannel: "910594004171759640",
 
-        rulesChannel: "911594245532573716",
+        rulesChannel: "910594004448608330",
 
         botVoice: "911611543035191318",
 
@@ -38,7 +38,7 @@ module.exports = {
 
     guild: {
 
-        guildID: "901819030187409478",
+        guildID: "910594003370664027",
 
         tag: "", // BURAYA İSMİN BAŞINA GELECEK TAG BİRDEN ÇOK TAGINIZ VARSA AŞŞAĞIYA GİRİN
 
