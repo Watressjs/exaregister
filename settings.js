@@ -19,8 +19,7 @@ module.exports = {
     channels: {
         registerChannel: "912370056430776360",
         rulesChannel: "912371170999951360",
-        botVoice: "912371051126739025
-",
+        botVoice: "912371051126739025",
 
     },
     guild: {
