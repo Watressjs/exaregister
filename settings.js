@@ -1,10 +1,10 @@
 module.exports = {
     bot: {
         botOwner: ["851025562607681536"],
-        botToken: "ODk1MzMwNjY2NjIxODUzNjk2.YV2_qQ.4k_ddQSUNCGEFbfaaX-Z8DGbU_M",
+        botToken: "ODk1MzMwNjY2NjIxODUzNjk2.YV2_qQ.P5caZdxI9t4AWKCZDgDFTuN6mbM",
         botPrefix: ".",
         botStatus: "Joseph Assistant",
-        mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/Guardbot?retryWrites=true&w=majority",
+        mongoURL: "mongodb+srv://lewisjs:okan1234@cluster0.o8u51.mongodb.net/kayıtbot?retryWrites=true&w=majority",
     },
     roles: {
         registerStaff: [911606452081278976],
